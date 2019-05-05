@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~@fortawesome/fontawesome-free/css/fontawesome.css";
+@import "~@fortawesome/fontawesome-free/css/brands.css";
+@import "~@fortawesome/fontawesome-free/css/regular.css";
+@import "~@fortawesome/fontawesome-free/css/solid.css";
+
+.google 	{ background-color: #DB4437; }
+.facebook 	{ background-color: #3B5998; }
+.twitter 	{ background-color: #55ACEE; }
+.github 	{ background-color: #333333; }
+.email 		{ background-color: #FFFFFF; color: #757575; }
+.phone 		{ background-color: #02BD7E; }

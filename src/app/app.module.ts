@@ -1,10 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {FormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AppFirebaseModule } from './app-firebase/app-firebase.module';
-
+import {WindowService} from  './common/window/window.service';
 @NgModule({
   declarations: [
     AppComponent
@@ -12,9 +13,10 @@ import { AppFirebaseModule } from './app-firebase/app-firebase.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AppFirebaseModule
+    AppFirebaseModule,
+    FormsModule,
   ],
-  providers: [],
+  providers: [WindowService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
